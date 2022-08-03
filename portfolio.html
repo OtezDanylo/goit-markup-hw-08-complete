@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../css/main.min.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <div class="container container-header">
+            <a href="./index.html" class="header-web__link link">Web<span class="header-web__studio">Studio</span></a>
+            <button type="button" class="menu-button " data-menu-button>
+                <svg width="40" height="40" aria-label="Перемикач мобільного меню">
+                    <use class="menu-icon" href="./images/burger.svg#icon-burger"></use>
+                    <use class="cross-icon" href="./images/modal-window.svg#icon-cross"></use>
+                </svg>
+            </button>
+    
+            <div class="mobile-menu" data-menu>
+                <nav class="nav">
+                    <ul class="header-list list">
+                        <li class="header-list__item">
+                            <a href="./index.html" class=" pages link">
+                                Студия</a>
+                        </li>
+                        <li class="header-list__item">
+                            <a href="./portfolio.html" class="current-pages pages link">Портфолио</a>
+                        </li>
+                        <li class="header-list__item">
+                            <a href="./contacts.html" class="pages link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+    
+                <ul class="header-list-contacts list">
+                    <li class="contacts-list__item">
+                        <a href="mailto:info@devstudio.comlink" class="contacts "><svg class="header-media-icon icon"
+                                width="16" height="12">
+                                <use href="./images/symbol-defs-contacts.svg#icon-envelope"></use>
+                            </svg>info@devstudio.com</a>
+                    </li>
+                    <li class="contacts-list__item">
+                        <a href="tel:+380961111111link" class="contacts menu__contacts"
+                            href="./images/symbol-defs.svg#icon-tel">
+                            <svg class="header-media-icon icon" width="10" height="16">
+                                <use href="./images/symbol-defs-contacts.svg#icon-smartphone"></use>
+                            </svg>+38 096 111 11 11</a>
+                    </li>
+                </ul>
+                <div class="menu-socials">
+                    <ul class="menu-socials__list list">
+                        <li class="menu-socials__item"> <a href="" class="menu-socials__link link">Instagram</a></li>
+                        <li class="menu-socials__item"> <a href="" class="menu-socials__link link">Twitter</a></li>
+                        <li class="menu-socials__item"> <a href="" class="menu-socials__link link">Facebook</a></li>
+                        <li class="menu-socials__item"> <a href="" class="menu-socials__link link">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+       <section class="section">
+        <h1 class="visually-hidden">Фильтры</h1>
+        <div class="container">
+        <ul class="nav-list list">
+            <li class="nav-list-item"><button type="button" class="filter">Все</button></li>
+            <li class="nav-list-item"><button type="button" class="filter">Веб-сайты</button></li>
+            <li class="nav-list-item"><button type="button" class="filter">Приложения</button></li>
+            <li class="nav-list-item"><button type="button" class="filter">Дизайн</button></li>
+            <li class="nav-list-item"><button type="button" class="filter">Маркетинг</button></li>
+        </ul>
+       
+        <ul class="images-list list">
+                    <li class="images-list-item">
+                         <a href="#" class="porfolio-link link"> <div class="overlay">
+                            <picture>
+                            <source srcset="./images/technocrack-mob.jpg 1x, ./images/technocrack-mob2x.jpg 2x" media="(max-width: 767px)"
+                                alt="technocrack">
+                            <source srcset="./images/technocrack-tablet.jpg 1x, ./images/technocrack-tablet2x.jpg 2x" media="(max-width: 1199px)"
+                                alt="technocrack">
+                            <source srcset="./images/technocrack.jpg 1x, ./images/technocrack2x.jpg 2x" media="(min-width: 1200px)" alt="technocrack">
+                            <img src="./images/technocrack.jpg" alt="technocrack">
+                        </picture>
+                     <p class="overlay-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.</p> </div> 
+                            <div class="padding-names">
+                        <h2 class="names">Технокряк</h2>
+                        <p class="Filter-names">Веб-сайт</p>
+                    </div>
+                </a>
+      </li>
+            <li class="images-list-item"> <a class="porfolio-link link" href="#" class="link"><div class="overlay">
+                <picture>
+                <source srcset="./images/basketball-mob.jpg 1x, ./images/basketball-mob2x.jpg 2x" media="(max-width: 767px)"
+                    alt="basketball">
+                <source srcset="./images/basketball-tablet.jpg 1x, ./images/basketball-tablet2x.jpg 2x"
+                    media="(max-width: 1199px)" alt="basketball">
+                <source srcset="./images/basketball.jpg 1x, ./images/basketball2x.jpg 2x" media="(min-width: 1200px)"
+                    alt="basketball">
+                <img src="./images/basketball.jpg" alt="basketball">
+            </picture>
+        <p class="overlay-text"> </div><div class="padding-names">
+                <h2 class="names">Постер New Orlean vs Golden Star</h2>
+                <p class="Filter-names">Дизайн</p>
+            </div></a>
+               </li>
+            <li class="images-list-item"> <a class="porfolio-link link" href="" class="link"><div class="overlay">
+                <picture>
+                <source srcset="./images/restaurant-mob.jpg 1x, ./images/restaurant-mob2x.jpg 2x" media="(max-width: 767px)"
+                    alt="restaurant">
+                <source srcset="./images/restaurant-tablet.jpg 1x, ./images/restaurant-tablet2x.jpg 2x" media="(max-width: 1199px)"
+                    alt="restaurant">
+                <source srcset="./images/restaurant.jpg 1x, ./images/restaurant2x.jpg 2x" media="(min-width: 1200px)" alt="restaurant">
+                <img src="./images/restaurant.jpg" alt="restaurant">
+            </picture>
+           <p class="overlay-text"></p> </div><div class="padding-names">
+                <h2 class="names">Ресторан Seafood</h2>
+                <p class="Filter-names">Приложение</p>
+            </div>
+        </a>
+              </li>
+               <li class="images-list-item"> <a class="porfolio-link link" href="#" class="link"><div class="overlay">
+                <picture>
+                <source srcset="./images/prime-mob.jpg 1x, ./images/prime-mob2x.jpg 2x" media="(max-width: 767px)"
+                    alt="prime">
+                <source srcset="./images/prime-tablet.jpg 1x, ./images/prime-tablet2x.jpg 2x" media="(max-width: 1199px)"
+                    alt="prime">
+                <source srcset="./images/prime.jpg 1x, ./images/prime2x.jpg 2x" media="(min-width: 1200px)" alt="prime">
+                <img src="./images/prime.jpg" alt="prime">
+            </picture>
+            <p class="overlay-text"></p></div><div class="padding-names">
+                <h2 class="names">Проект Prime</h2>
+                <p class="Filter-names">Маркетинг</p>
+            </div></a>
+                </li>
+            <li class="images-list-item"> <a class="porfolio-link link" href="" class="link"><div class="overlay">
+                <picture>
+                <source srcset="./images/boxes-mob.jpg 1x, ./images/boxes-mob2x.jpg 2x" media="(max-width: 767px)"
+                    alt="boxes">
+                <source srcset="./images/boxes-tablet.jpg 1x, ./images/boxes-tablet2x.jpg 2x"
+                    media="(max-width: 1199px)" alt="boxes">
+                <source srcset="./images/boxes.jpg 1x, ./images/boxes2x.jpg 2x" media="(min-width: 1200px)"
+                    alt="boxes">
+                <img src="./images/technocrack.jpg" alt="technocrack">
+            </picture>
+            <p class="overlay-text"></p></div><div class="padding-names">
+                <h2 class="names">Проект Boxes</h2>
+                <p class="Filter-names">Приложение</p>
+            </div></a>
+                
+            </li>
+            <li class="images-list-item"> <a class="porfolio-link link" href="#" class="link"><div class="overlay">
+                <picture>
+                <source srcset="./images/mac-mob.jpg 1x, ./images/mac-mob2x.jpg 2x" media="(max-width: 767px)"
+                    alt="nikolay">
+                <source srcset="./images/mac-tablet.jpg 1x, ./images/mac-tablet2x.jpg 2x"
+                    media="(max-width: 1199px)" alt="nikolay">
+                <source srcset="./images/mac.jpg 1x, ./images/mac2x.jpg 2x" media="(min-width: 1200px)"
+                    alt="nikolay">
+                <img src="./images/technocrack.jpg" alt="technocrack">
+            </picture>
+           <p class="overlay-text"></p> </div><div class="padding-names">
+                <h2 class="names">Inspiration has no Borders</h2>
+                <p class="Filter-names">Веб-сайт</p>
+            </div></a>
+                
+            </li>
+                <li class="images-list-item"> <a class="porfolio-link link" href="#" class="link"><div class="overlay">
+                    <picture>
+                    <source srcset="./images/magazine-mob.jpg 1x, ./images/magazine-mob2x.jpg 2x" media="(max-width: 767px)"
+                        alt="nikolay">
+                    <source srcset="./images/magazine-tablet.jpg 1x, ./images/magazine-tablet2x.jpg 2x"
+                        media="(max-width: 1199px)" alt="nikolay">
+                    <source srcset="./images/magazine.jpg 1x, ./images/magazine2x.jpg 2x" media="(min-width: 1200px)"
+                        alt="nikolay">
+                    <img src="./images/technocrack.jpg" alt="technocrack">
+                </picture>
+               <p class="overlay-text"></p> </div><div class="padding-names">
+                    <h2 class="names">Издание Limited Edition</h2>
+                    <p class="Filter-names">Дизайн</p>
+                </div></a>
+                
+            </li>
+            <li class="images-list-item"> <a class="porfolio-link link" href="#" class="link"><div class="overlay">
+                <picture>
+                <source srcset="./images/project-mob.jpg 1x, ./images/project-mob2x.jpg 2x" media="(max-width: 767px)"
+                    alt="nikolay">
+                <source srcset="./images/project-tablet.jpg 1x, ./images/project-tablet2x.jpg 2x"
+                    media="(max-width: 1199px)" alt="nikolay">
+                <source srcset="./images/project.jpg 1x, ./images/project2x.jpg 2x" media="(min-width: 1200px)"
+                    alt="nikolay">
+                <img src="./images/technocrack.jpg" alt="technocrack">
+            </picture>
+           <p class="overlay-text"></p> </div><div class="padding-names">
+                <h2 class="names">Проект LAB</h2>
+                <p class="Filter-names">Маркетинг</p>
+            </div></a>
+                
+            </li>
+            <li class="images-list-item"> <a class="porfolio-link link" href="#" class="link"><div class="overlay">
+                <picture>
+                <source srcset="./images/business-mob.jpg 1x, ./images/business-mob2x.jpg 2x" media="(max-width: 767px)"
+                    alt="nikolay">
+                <source srcset="./images/business-tablet.jpg 1x, ./images/business-tablet2x.jpg 2x"
+                    media="(max-width: 1199px)" alt="nikolay">
+                <source srcset="./images/business.jpg 1x, ./images/business2x.jpg 2x" media="(min-width: 1200px)"
+                    alt="nikolay">
+                <img src="./images/technocrack.jpg" alt="technocrack">
+            </picture>
+           <p class="overlay-text"></p> </div><div class="padding-names">
+                <h2 class="names">Growing Business</h2>
+                <p class="Filter-names">Приложение</p>
+            </div></a>
+               
+            </li>
+        </ul>
+       </section>
+    </div>
+   
+           </main>
+    <footer class="footer">
+        <div class="container">
+            <div><a href="./index.html" class="Web-footer link">Web<span class="studio link">Studio</span></a>
+                <address class="address">
+                    <ul class=" list">
+                        <li class="footer-list__item list">
+                            <a href="https://goo.gl/maps/72ySWtxUDbigpaGH8" target="_blank" rel="noopener noreferrer"
+                                class="maps link">
+                                г. Киев, пр-т Леси Украинки, 26</a>
+                        </li>
+                        <li class="footer-list__item list">
+                            <a href="mailto:info@example.com" class="contacts-footer link">info@example.com</a>
+                        </li>
+                        <li class="footer-list__item list">
+                            <a href="tel:+380991111111" class="contacts-footer link">+38 099 111 11 11</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+            <div class="div-footer">
+                <p class="p-footer">присоединяйтесь</p>
+                <ul class="footer-list-icon list">
+                    <li class="footer-icon__item"><a href="/" class="footer-icon link"><svg class="social-media__icon"
+                                width="20" height="20">
+                                <use href="./images/icons/symbol-defs.svg#icon-instagram"></use>
+                            </svg></a></li>
+                    <li class="footer-icon__item"><a href="/" class="footer-icon link"><svg class="social-media__icon"
+                                width="20" height="20">
+                                <use href="./images/icons/symbol-defs.svg#icon-twitter"></use>
+                            </svg></a></li>
+                    <li class="footer-icon__item"><a href="/" class="footer-icon link"><svg class="social-media__icon"
+                                width="20" height="20">
+                                <use href="./images/icons/symbol-defs.svg#icon-facebook"></use>
+                            </svg></a></li>
+                    <li class="footer-icon__item"><a href="/" class="footer-icon link"><svg class="social-media__icon"
+                                width="20" height="20">
+                                <use href="./images/icons/symbol-defs.svg#icon-linkedin"></use>
+                            </svg></a></li>
+                </ul>
+            </div>
+            <div class="email">
+                <p class="email-txt">Подпишитесь на рассылку</p>
+                <form class="mail-form">
+                    <input type="email" name="mail" id="mail" placeholder="E-mail" class="footer-input" />
+                    <button type="submit" class="subscribe__button"> Подписаться <svg class="svg">
+                            <use href="./images/icons/symbol-defs-modal.svg#icon-plane"></use>
+                        </svg></button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    
+<script src="./menu.js"></script>
+
+</body>
+</html>

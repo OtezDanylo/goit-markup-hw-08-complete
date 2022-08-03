@@ -1,0 +1,44 @@
+.nav-list-item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.images-list {
+  @media screen and (max-width: 767px) {
+    justify-content: center;
+  }
+
+
+@media screen and (min-width: 768px) {
+  width: 768px;
+  width: 50%;
+}
+
+@media screen and (min-width: 1200px) {
+  width: 1200px;
+  flex-basis: calc(100% / 3);
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -30px;
+  margin-right: -30px;
+}
+
+}
+
+.images-list>.images-list-item {
+  width: 370px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+
+.padding-names {
+  padding: 20px 24px;
+  border: 1px var(--border) solid;
+  border-top: none;
+  fill: currentColor;
+}

@@ -1,0 +1,48 @@
+.team-space {
+    display: flex;
+    fill: currentColor;
+flex-wrap: wrap;
+justify-content: center;
+  margin-top: 50px;
+    
+    @media screen and (min-width: 768px) {
+      width: 768px;
+      display: flex;
+justify-content:center ;
+    }
+
+        @media screen and (min-width: 1200px) {
+          width: 1200px;
+          display: flex;
+          justify-content: center;
+        }
+}
+
+.team-space__item {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: var(--white);
+    
+        margin-right: 30px;
+        margin-bottom: 30px; 
+}
+
+.teamdiv-names {
+  padding: 30px 0;
+}
+
+.team-background {
+  background-color: var(--colorf5f4);
+  padding-bottom: 94px;
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+}
+
+
+
+
+
+

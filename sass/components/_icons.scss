@@ -1,0 +1,46 @@
+.cross-svg {
+    padding: 6px;
+  background-color: var(--white);
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (max-width: 767px) {
+    border: none;
+  }
+}
+
+
+.icon {
+  fill: currentColor;
+  .icon-item {
+      border-color: var(--colorf5f4);
+    }
+  
+    &-clients {
+      fill: currentColor;
+      width: 106px;
+      height: 60px;
+}
+ }
+
+ .svg {
+   width: 24;
+   height: 24px;
+ }
+
+ .modal__icon-span {
+   position: absolute;
+   margin-top: 11px;
+   margin-bottom: 11px;
+   margin-left: 12px;
+ }
+
+
+ .header-media-icon {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+ }
